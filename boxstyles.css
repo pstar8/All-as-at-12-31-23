@@ -1,0 +1,31 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+* {
+  box-sizing: border-box;
+}
+div {
+  width: 250px;
+  height: 250px;
+  writing-mode: horizontal-tb;
+  margin: auto;
+  padding-top: 120px;
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: darkgreen;
+  color: lime;
+  text-shadow: black 3px 2px 3px;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: darkolivegreen;
+  border-style: solid;
+  box-shadow: black 10px;
+  box-shadow: inset;
+  background-image: linear-gradient();
+  /*background-color: black;*/
+  background-position: bottom right;
+  opacity: 0;
+}
+/*16 pixels is 1 rem so 18 pixels is 1.1rem*/

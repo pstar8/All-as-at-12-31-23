@@ -1,0 +1,52 @@
+/* General page styles*/
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: #ccc;
+}
+
+.cardheader {
+  margin: 0;
+  max-height: 50px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.card {
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: rgb(197, 8, 8);
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+  max-height: 150px;
+}
+.p {
+  font-size: 15px;
+  margin: 0;
+  color: #fff;
+  padding: 5%;
+}
+.card header {
+  background-image: linear-gradient(
+    180deg,
+    rgba(250, 16, 16, 0.932),
+    rgba(221, 7, 7, 0.1)
+  );
+  border-radius: 1.5em;
+}
+.card footer {
+  background-image: linear-gradient(
+    (to bottom, rgba(241, 14, 14, 0.13), rgba(238, 16, 16, 0.993))
+  );
+  border-radius: 1.5em;
+}
+.cardarticleimg {
+  float: right;
+  max-height: 100%;
+}

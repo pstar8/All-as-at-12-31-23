@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif,
+    url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  margin: 0;
+  background: #aaa;
+  color: #333;
+  /* I'll give you this one for free lol */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  max-height: fit-content;
+}
+
+.icon {
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 700;
+  background: lavender;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.close-button {
+  background: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  padding: 0;
+  margin: auto;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  justify-content: baseline;
+  gap: 15px;
+}
+
+button.continue {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  margin: 5px;
+}
+
+button.cancel {
+  background: white;
+  border: 1px solid #ddd;
+  color: royalblue;
+}
+.content {
+  margin-left: 60px;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 20px;
+}
+.header {
+  font-weight: 1000;
+  font-style: normal;
+  font-size: larger;
+}
+.text {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/*.container {
+  padding: 20px;
+}
+.*/
+.symbols {
+  display: flex;
+  gap: 375px;
+}
